@@ -1,2 +1,3 @@
 file=input("Input the Filename:")
-print("The extension of the file is:")
+f_extn=file.split(".")
+print("The extension of the file is:"+repr(f_extn[-1]))
