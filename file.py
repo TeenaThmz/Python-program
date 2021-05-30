@@ -1,3 +1,4 @@
 filename=input("Input the Filename:")
-f_extn=filename.split(".")
-print("The extension of the file is:"+repr(f_extn[-1]))
+extn=filename.split(".")[-1]
+d={"py":"Python"}
+print("The extension of the file is:",(d[extn]))
